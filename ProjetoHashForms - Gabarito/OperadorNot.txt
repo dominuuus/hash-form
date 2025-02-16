@@ -1,0 +1,7 @@
+O operador ! inverte o valor lógico da expressão.
+
+Por exemplo:
+!nome significa "o valor de nome está vazio, indefinido ou falso".
+Em JavaScript, valores como "" (string vazia), null, undefined, ou 0 são avaliados como falsy. 
+O operador ! os transforma em true, indicando que algo está faltando.
+Assim, se qualquer um dos campos não for preenchido, o bloco if será executado, exibindo o alerta.

@@ -1,0 +1,3 @@
+O método JSON.stringify() em JavaScript é usado para converter um objeto ou
+valor em uma string JSON. Essa string JSON é uma representação textual do dado original,
+que pode ser armazenada ou transmitida, por exemplo, em APIs ou arquivos.
