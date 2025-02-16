@@ -8,22 +8,22 @@ No entanto, decidi ir além e implementar algumas funcionalidades adicionais que
 ## 🚀 Funcionalidades Implementadas
 ✅ Máscaras para CPF, Telefone e CEP
 - Utilização da biblioteca IMask para garantir que os campos sigam o formato correto.
-- Exemplo: O campo de CPF é formatado automaticamente como 000.000.000-00.
+- Exemplo: O campo de CPF é formatado automaticamente como `000.000.000-00`.
   
 ✅ Validação de CPF
-- Implementação da função validarCpf() para verificar se o CPF digitado é válido, conforme as regras da Receita Federal.
+- Implementação da função `validarCpf()` para verificar se o CPF digitado é válido, conforme as regras da Receita Federal.
 - Caso o CPF seja inválido, uma notificação é exibida ao usuário.
   
 ✅ Validação de Email
 - Adição dos campos email e confirmação de email, que não estavam no projeto original.
-- Implementação da função conferirEmail() para comparar os emails digitados e alertar o usuário caso não coincidam.
+- Implementação da função `conferirEmail()` para comparar os emails digitados e alertar o usuário caso não coincidam.
 
 ✅ Integração com API de Consulta de CEP
 - Utilização da API ViaCEP para preenchimento automático dos campos de endereço (rua, bairro, cidade e UF) ao digitar um CEP válido.
-- Implementação da função buscarCep() para realizar a consulta e preencher os campos automaticamente.
+- Implementação da função `buscarCep()` para realizar a consulta e preencher os campos automaticamente.
   
 ✅ Bloqueio e Limpeza de Campos de Endereço
-- Implementação das funções bloquearCamposCep() e limparCamposCep() para:
+- Implementação das funções `bloquearCamposCep()` e `limparCamposCep()` para:
   - Bloquear a edição dos campos preenchidos automaticamente.
   - Limpar os dados caso o CEP seja alterado.
 - Aplicação de uma classe CSS para destacar os campos preenchidos automaticamente.
@@ -41,7 +41,7 @@ No entanto, decidi ir além e implementar algumas funcionalidades adicionais que
 💻 JavaScript:
 - Implementação de todas as funcionalidades descritas, utilizando conceitos como:
 - Manipulação do DOM
-- Funções assíncronas (async/await) para integração com API
+- Funções assíncronas (`async/await`) para integração com API
 - Validações de campos e exibição de mensagens de erro
 
 ## 🎯 Desafios e Aprendizados
@@ -51,18 +51,16 @@ No entanto, decidi ir além e implementar algumas funcionalidades adicionais que
 
 ## ▶ Como Executar o Projeto
 1️⃣ Clone este repositório:
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/hash-form.git
+```git clone https://github.com/seu-usuario/hash-form.git```
+
 2️⃣ Acesse a pasta do projeto e abra o arquivo index.html no navegador.
 
 ## 🛠 Tecnologias Utilizadas
-HTML5: Estrutura semântica do formulário.
-CSS3: Estilização e responsividade.
-JavaScript: Funcionalidades dinâmicas e integração com API.
-IMask: Biblioteca para máscaras de campos.
-ViaCEP API: Consulta de endereço por CEP.
+- HTML5: Estrutura semântica do formulário.
+- CSS3: Estilização e responsividade.
+- JavaScript: Funcionalidades dinâmicas e integração com API.
+- IMask: Biblioteca para máscaras de campos.
+- ViaCEP API: Consulta de endereço por CEP.
 
 ## 📢 Considerações Finais
 Este projeto foi uma grande conquista pessoal, e estou muito feliz com o resultado final. Espero que ele inspire outros estudantes a explorarem além do básico, sempre buscando novas formas de aprender e inovar! 🚀💡
