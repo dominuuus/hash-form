@@ -46,7 +46,9 @@ No entanto, decidi ir além e implementar algumas funcionalidades adicionais que
 
 ## 🎯 Desafios e Aprendizados
 ✔ Autonomia: Aproximadamente 70% do projeto foi desenvolvido com base em anotações do curso e consultas à documentação oficial.
+
 ✔ Pesquisa e IA: Para os 30% restantes, utilizei IA e fóruns para entender e implementar funcionalidades específicas, sem copiar código pronto.
+
 ✔ Curiosidade e Inovação: A decisão de expandir o projeto me permitiu aprofundar conhecimentos e explorar novas soluções em JavaScript.
 
 ## ▶ Como Executar o Projeto
