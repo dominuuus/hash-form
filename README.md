@@ -53,9 +53,13 @@ No entanto, decidi ir além e implementar algumas funcionalidades adicionais que
 
 ## ▶ Como Executar o Projeto
 1️⃣ Clone este repositório:
-```git clone https://github.com/seu-usuario/hash-form.git```
+- ```git clone https://github.com/seu-usuario/hash-form.git```
+- Acesse a pasta do projeto e abra o arquivo index.html no navegador.
 
-2️⃣ Acesse a pasta do projeto e abra o arquivo index.html no navegador.
+2️⃣ Ou navegue diretamente na página:
+- https://dominuuus.github.io/hash-form/
+
+
 
 ## 🛠 Tecnologias Utilizadas
 - HTML5: Estrutura semântica do formulário.
